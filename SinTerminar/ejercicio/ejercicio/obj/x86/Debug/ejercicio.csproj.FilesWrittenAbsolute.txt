@@ -1,0 +1,5 @@
+/home/nux/Documents/cSharp/Ejercicio/ejercicio/ejercicio/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nux/Documents/cSharp/Ejercicio/ejercicio/ejercicio/bin/Debug/ejercicio.exe.mdb
+/home/nux/Documents/cSharp/Ejercicio/ejercicio/ejercicio/bin/Debug/ejercicio.exe
+/home/nux/Documents/cSharp/Ejercicio/ejercicio/ejercicio/obj/x86/Debug/ejercicio.exe
+/home/nux/Documents/cSharp/Ejercicio/ejercicio/ejercicio/obj/x86/Debug/ejercicio.exe.mdb
