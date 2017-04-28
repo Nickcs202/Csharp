@@ -1,0 +1,5 @@
+/home/nux/Documentos/ProgramacionIII/cSharp/DadoRecargado/DadoRecargado/DadoRecargado/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nux/Documentos/ProgramacionIII/cSharp/DadoRecargado/DadoRecargado/DadoRecargado/bin/Release/DadoRecargado.exe.mdb
+/home/nux/Documentos/ProgramacionIII/cSharp/DadoRecargado/DadoRecargado/DadoRecargado/bin/Release/DadoRecargado.exe
+/home/nux/Documentos/ProgramacionIII/cSharp/DadoRecargado/DadoRecargado/DadoRecargado/obj/x86/Release/DadoRecargado.exe
+/home/nux/Documentos/ProgramacionIII/cSharp/DadoRecargado/DadoRecargado/DadoRecargado/obj/x86/Release/DadoRecargado.exe.mdb
