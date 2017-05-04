@@ -1,0 +1,43 @@
+using System;
+
+namespace Ejercicios
+{
+	// Ejercicio Ordenamiento por insercion
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+			int[] arg = {89,5,1,65,27,8,2 };
+			//imprimirArreglo (arg);
+
+			ordenamientoInsercion (arg);
+
+			imprimirArreglo (arg);
+
+
+		}//Fin del main
+
+		public static int[] ordenamientoInsercion(int[] ar){
+					
+			for (int i = 0; i < ar.Length; i++) {
+				int copiaAr = ar[i];
+				int j = i;
+				while (j > 0 && copiaAr < ar[j-1]) {
+					ar[j] = ar[j-1];
+					j--;
+				}
+				ar[j] = copiaAr;
+			}return ar;
+		}//Fin del metodo 
+
+
+		public static void imprimirArreglo(int[] arreglo){
+			for (int i = 0; i < arreglo.Length; i++) {
+				Console.WriteLine (">"+arreglo[i]);
+					}
+		}
+
+	}
+}

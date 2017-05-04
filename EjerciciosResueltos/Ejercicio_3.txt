@@ -1,0 +1,53 @@
+using System;
+
+namespace Ejercicios
+{
+
+//	Ejercicio Ordenamiento de burbuja.
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+			int[] arregloDesordenado = {34,7,44,89,3,1 };
+
+			imprimir (arregloDesordenado, false);
+
+			int[] arregloOrdenado = metodoBurbuja (arregloDesordenado);
+			
+			imprimir (arregloOrdenado, true);
+
+ 		}
+		public static int[] metodoBurbuja(int[] vector){
+			int t;
+			for (int a = 1; a < vector.Length; a++)
+				for (int b = vector.Length - 1; b >= a; b--)
+				{
+					if (vector[b - 1] > vector[b])
+					{
+						t = vector[b - 1];
+						vector[b - 1] = vector[b];
+						vector[b] = t;
+					}
+				}return vector;
+		}//Fin del metodo Burbuja
+
+		public static void imprimir(int[] vector, Boolean param)
+		{
+			if (param) {
+				Console.WriteLine ("\nVector ordenados en forma ascendente");
+			} else {
+				Console.WriteLine ("Arreglo desordenado...");
+			}
+				
+			
+			for (int f = 0; f < vector.Length; f++)
+			{
+				Console.Write(vector[f]+"  ");
+			}
+			
+		}//Fin del metodo imprimir
+
+	}
+}

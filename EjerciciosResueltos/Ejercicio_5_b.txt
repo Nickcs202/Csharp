@@ -1,0 +1,31 @@
+using System;
+
+namespace Ejercicios
+{
+
+	// Dado un numero calcular su factorial.
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+			Console.WriteLine ("Ingrese in numero..");
+			int n = int.Parse (Console.ReadLine());
+			Console.WriteLine ("El factorial de "+ n +" es "+factorial(n));
+			Console.ReadKey();
+
+		}//Fin del main
+
+		public static int factorial(int num)
+		{
+			int f=1;
+			if (num == 0 || num == 1)
+				return f;
+			else
+				f = num * factorial(num - 1);
+			return f;
+		}//Fin de funcion recursiva factorial
+
+	}
+}

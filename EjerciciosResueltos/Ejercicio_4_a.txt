@@ -1,0 +1,35 @@
+using System;
+
+namespace Ejercicios
+{
+
+//	Ejercicio Calcular un mumero primo version larga.
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+
+
+			Console.WriteLine ("Ingrese in numero..");
+			int n = int.Parse (Console.ReadLine());
+			Console.WriteLine ("El numero " + n + " es primo " + esPrimo (n));
+			Console.ReadKey();
+
+
+		}//Fin del main
+
+		    public static Boolean esPrimo(int numero){
+		      int contador = 2;
+		      Boolean primo=true;
+		      while ((primo) && (contador!=numero)){
+			if (numero % contador == 0)
+			  primo = false;
+			contador++;
+		      }
+		      return primo;
+		    }//Fin del metodo isPrimo
+
+
+	}
+}

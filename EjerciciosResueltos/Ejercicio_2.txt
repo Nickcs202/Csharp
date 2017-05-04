@@ -1,0 +1,26 @@
+using System;
+
+namespace Ejercicios
+{
+//	Muestre las tablas de multiplicar
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+
+			Console.WriteLine ("Ingrese que tabla de multiplicar");
+
+			int t = int.Parse (Console.ReadLine());
+
+			Console.WriteLine ("Ingrese hasta que numero desea ver..");
+
+			int n = int.Parse (Console.ReadLine());
+			
+			for (int i = 0; i <= n; i++) {
+				Console.WriteLine (""+t+" x "+i+"  = "+(t*i));
+			}
+			Console.ReadKey();
+ 		}
+	}
+}

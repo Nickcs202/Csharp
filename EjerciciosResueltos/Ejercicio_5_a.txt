@@ -1,0 +1,32 @@
+using System;
+
+namespace Ejercicios
+{
+
+	// Calcular sucesion de Fibonacci.
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+			imprimirSucesionFibo (15);
+			Console.ReadKey();
+
+		}//Finn del main
+
+	public static void imprimirSucesionFibo(int max){
+			for (int i = 0; i < max; i++) {
+			Console.WriteLine ("Fibo =  "+Fibonnaci(i));
+			}
+	}//Fin funcion imprimir fibo
+
+	public static int Fibonnaci(int n) 
+	{ 
+		if (n == 0 || n == 1) return 1; 
+		else return Fibonnaci(n - 1) + Fibonnaci(n - 2); 
+	}//Fin funcion Fibinacci
+
+
+	}
+}

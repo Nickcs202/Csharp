@@ -1,0 +1,51 @@
+using System;
+
+namespace Ejercicios
+{
+	// Calculo de numero primo version corta.
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+
+	Console.WriteLine ("Ingrese in numero..");
+	int n = int.Parse (Console.ReadLine());
+			
+			Console.WriteLine ("El numero " + n + " es primo " + esPrimoCorto (n));
+			
+		}//Fin del main
+
+
+	
+	public static Boolean esPrimoCorto(int numero){
+		double auxi;
+			Boolean variable = true;
+		if (numero % 2 == 0 && numero != 2)
+					return false;
+		
+		else {
+			auxi = Math.Sqrt ( numero);
+			
+			
+			int contador =2;		
+			while (contador<auxi || variable==false) {
+	
+						if (numero % 2 != 0 && numero != 2) {
+							if (contador % numero == 0) {
+								variable = false;
+								return variable;
+							}
+						} else {
+							variable = true;
+							return variable;
+				}contador++;
+					}
+
+			return variable;
+				}
+			}
+
+	}
+}

@@ -1,0 +1,66 @@
+using System;
+
+namespace Ejercicios
+{
+	// Ejercicio Busqueda Binaria.
+
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+			int[] arg = {89,5,1,65,27,8,2 };
+			
+			ordenamientoSeleccion (arg);
+	
+			Console.WriteLine ("busqueda binaria "+busquedaBinaria(arg, 3));
+
+		}//Fin del main
+
+
+	public static int busquedaBinaria(int[] array, int valor)
+	{       
+		int adelante = 0, atras = array.Length - 1, mitad = 0;
+
+		while (adelante <= atras)
+		{
+			mitad = adelante + (atras - adelante)/2;      
+
+			if (valor == array[mitad])
+			{                    
+				return mitad;
+			}
+			else if (valor < array[mitad])
+				atras = mitad - 1;
+			else
+				adelante = mitad + 1;
+		}
+		
+		return -1;
+	}
+
+
+	public static int[] ordenamientoSeleccion(int[] array)
+		{
+			int min, aux;
+
+			for (int i = 0; i < array.Length - 1; i++)
+			{
+				min = i;
+				for (int j = i + 1; j < array.Length; j++)
+					if (array[j] < array[min])
+						min = j;
+
+				// swap the values
+				aux = array[i];
+				array[i] = array[min];
+				array[min] = aux;
+			}return array;
+		}
+
+
+		
+		}
+
+	}
+}
