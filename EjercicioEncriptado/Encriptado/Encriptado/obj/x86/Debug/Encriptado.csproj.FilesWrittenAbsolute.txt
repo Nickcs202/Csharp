@@ -1,0 +1,5 @@
+/home/nux/Documentos/C_Sharp/Ejercicios_CSharp/EjercicioEncriptado/Encriptado/Encriptado/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nux/Documentos/C_Sharp/Ejercicios_CSharp/EjercicioEncriptado/Encriptado/Encriptado/bin/Debug/Encriptado.exe.mdb
+/home/nux/Documentos/C_Sharp/Ejercicios_CSharp/EjercicioEncriptado/Encriptado/Encriptado/bin/Debug/Encriptado.exe
+/home/nux/Documentos/C_Sharp/Ejercicios_CSharp/EjercicioEncriptado/Encriptado/Encriptado/obj/x86/Debug/Encriptado.exe
+/home/nux/Documentos/C_Sharp/Ejercicios_CSharp/EjercicioEncriptado/Encriptado/Encriptado/obj/x86/Debug/Encriptado.exe.mdb
