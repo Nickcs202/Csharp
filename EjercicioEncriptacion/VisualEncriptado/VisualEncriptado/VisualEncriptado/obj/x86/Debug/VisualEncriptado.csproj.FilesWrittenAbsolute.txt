@@ -1,0 +1,7 @@
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/obj/x86/Debug/VisualEncriptado.gtk-gui.gui.stetic
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/bin/Debug/VisualEncriptado.exe.mdb
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/bin/Debug/VisualEncriptado.exe
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/obj/x86/Debug/VisualEncriptado.exe
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/obj/x86/Debug/VisualEncriptado.exe.mdb
+/home/nux/Documentos/ProgramacionIII/cSharp/VisualEncriptado/VisualEncriptado/VisualEncriptado/bin/Debug/libstetic.dll
