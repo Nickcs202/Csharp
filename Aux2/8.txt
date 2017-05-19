@@ -1,0 +1,19 @@
+INICIO
+
+	entero a
+	entero b
+	entero resul
+
+	Imprimir: "Ingrese 1º numero"
+	Tomar: a
+	Imprimir: "Ingrese 2º numero"
+	Tomar: b
+	Si a == b Entonces:
+	resul = a * b
+	Si_No:
+	Si a > b Entonces:
+	resul = a - b
+	Si_No:
+	resul = a + b
+	Fin_Si
+FIN

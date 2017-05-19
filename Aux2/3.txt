@@ -1,0 +1,18 @@
+INICIO
+
+	entero hA
+	entero hB
+	entero dif
+
+	Imprimir: "Ingresar edad 1º hermano"
+	Tomar: hA
+	Imprimir: "Ingresar edad 2º hermano"
+	Tomar: hB
+	Si ha > hB Entonces:
+	dif = hA - hB
+	Imrpimir: "El 1º hermano es el mayor por "+dif+"años"
+	Si_No:
+	dif = hB - hA
+	Imrpimir: "El 2º hermano es el mayor por "+dif+"años"
+	Fin_Si
+FIN

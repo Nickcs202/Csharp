@@ -1,0 +1,22 @@
+INICIO
+	
+	entero a
+	entero b
+	entero c
+
+	Imprimir: "Ingresar 1º numero"
+	Tomar: a
+	Imprimir: "Ingresar 2º numero"
+	Tomar: b
+	Imprimir: "Ingresar 3º numero"
+	Tomar: c
+
+	Si a > b && b < c Entonces:
+	Imprimir: "El 1º numero es el mayor"
+	Si_No:
+	Si b > a && a < c Entonces:
+	Imprimir: "El 2º numero es el mayor"
+	Si_No:
+	Imprimir: "El 3º numero es el mayor"
+	Fin_Si
+FIN

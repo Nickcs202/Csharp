@@ -1,0 +1,21 @@
+INICIO
+
+	entero a
+	entero b 
+	entero c
+	entero d
+	decimal prom
+
+	Imprimir: "Primer calificacion"
+	Toma: a
+	Imprimir: "Segunda calificacion"
+	Toma: b 
+	Imprimir: "Tercer calificacion"
+	Toma: c
+	prom = (a + b + c) / 3	
+	Si prom>=60 Entonces:
+	Imprimir: "El alumnoi aprobo"
+	Si_No
+	Imprimir: "El alumno desaprobo"
+	Fin_Si
+FIN

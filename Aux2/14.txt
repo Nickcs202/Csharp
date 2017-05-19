@@ -1,0 +1,19 @@
+INICIO
+
+	entero num
+	entero num2
+	entero dec
+	entero unid
+
+	Imprimir: "Ingrese un numero de dos cifras"
+	Tomar: num
+	unid = num % 10
+	dec = num / 10
+	Imprimir: "Decena "+dec+" unidad "+unid
+	num2 = dec + unid
+	Si num2 % 3 == 0 Entonces:
+	Imprimir: "La suma de sus digitos es multiplo de 3"
+	Si_No:
+	Imprimir: "La suma de sus digitos no es multiplo de 3"
+	Fin_Si
+FIN

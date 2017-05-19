@@ -1,0 +1,15 @@
+INICIO
+
+	folat monto
+	folat aPagar
+
+	Imprimir: "Ingrese el monto de la compra"
+	Tomar: monto
+	Si monto > 1000 Entonces:
+	aPagar = monto * 0,20
+	Imprimir: "El monto a pagar es "+aPagar
+	Si_No
+	Imprimir: "El monto a pagar es "+monto
+	Fin_Si
+
+FIN

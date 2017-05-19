@@ -1,0 +1,16 @@
+INICIO
+
+	entero num
+
+	Imprimir: "Ingrese un numero entero entre 1 y 7 "
+	Tomar: num
+	Segun Sea num
+	=1: Imprimir : "Lunes"
+	=2: Imprimir : "Martes"
+	=3: Imprimir : "Miercoles"
+	=4: Imprimir : "Jueves"
+	=5: Imprimir : "Viernes"
+	=6: Imprimir : "Sabado"
+	=7: Imprimir : "Domingo"
+	Fin_Segun_Sea
+FIN

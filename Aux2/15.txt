@@ -1,0 +1,24 @@
+Inicio
+
+	entero N1
+	entero N2
+	decimal P1
+	decimal P2
+	decimal Ptotal
+
+	Imprimir: "Introduzca nº connejos blancos"
+	Tomar: N1
+	Imprimir: "Introduzca nº de conejos negros"
+	Tomar: N2
+	Imprimir: "Introduzca precio conejos blancos"
+	Tomar: P1
+	Imprimir: "Introduzca precio conejos negros"
+	Tomar: P2
+	Ptotal = P1*N1 + P2*N2
+	Imprimir: "El monto total de ventas es "+Ptotal
+	Si N1 > N2 Entonces:
+	Imprimir: "Se vendieron mas conejos blancos" 
+	Si_no:
+	Imprimir: "Se vendieron mas conejos negros"
+	Fin_si
+Fin

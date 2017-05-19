@@ -1,0 +1,13 @@
+INICIO
+
+	entero num
+
+	Imprimir: "Ingrese un numero entero distinto de cero"
+	Tomar: num
+	Si num % 2 == 0 Entonces: 
+	Imprimir: "El numero es par"
+	Si_No:
+	Imprimir: "El numero no es par"
+	fin_Si
+	
+FIN
