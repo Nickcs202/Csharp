@@ -1,0 +1,6 @@
+/home/nux/Documentos/ProgramacionIII/cSharp/EjercicioAhorkd2/Ahorkd2/Ahorkd2/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nux/Documentos/ProgramacionIII/cSharp/EjercicioAhorkd2/Ahorkd2/Ahorkd2/bin/Debug/AhorcadoPalabras.dll
+/home/nux/Documentos/ProgramacionIII/cSharp/EjercicioAhorkd2/Ahorkd2/Ahorkd2/bin/Debug/Ahorkd2.exe.mdb
+/home/nux/Documentos/ProgramacionIII/cSharp/EjercicioAhorkd2/Ahorkd2/Ahorkd2/bin/Debug/Ahorkd2.exe
+/home/nux/Documentos/ProgramacionIII/cSharp/EjercicioAhorkd2/Ahorkd2/Ahorkd2/obj/x86/Debug/Ahorkd2.exe
+/home/nux/Documentos/ProgramacionIII/cSharp/EjercicioAhorkd2/Ahorkd2/Ahorkd2/obj/x86/Debug/Ahorkd2.exe.mdb
