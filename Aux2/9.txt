@@ -1,0 +1,20 @@
+INICIO
+	entero hNormal
+	entero hsTrabajadas
+	entero hsExtra
+	entero masHsExtra
+	doble sueldo
+	doble sueldoTotal 
+
+	Si hsTrabajadas > 40 Entonces:
+	hsEtra= hsTrabajadas - hNormal
+	Si hsExtra > 8 Entonces:
+	masHsExtra= hsExtra-8
+	sueldoTotal=(sueldo*hNormal*2)+(sueldo*masHsExtra*3)
+	Si_No:
+	sueldoTotal=sueldo*hNormal*2
+	Si_No:
+	sueldoTotal=sueldo*hsTrabajadas
+	Fin_Si
+	Fin_Si
+FIN

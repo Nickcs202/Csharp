@@ -1,0 +1,22 @@
+INICIO
+	decimal a
+	decimal b
+ 	decimal c
+
+	Imprimir: "Ingrese el 1º lado del triangulo"
+	Tomar: a
+	Imprimir: "Ingrese el 2º lado del triangulo"
+	Tomar: b
+	Imprimir: "Ingrese el 3º lado del triangulo"
+	Tomar: c
+	Si a==b && b==c Entonces:
+	Imprimir: "El triangulo es equilatero" 
+	Si_no:
+	Si a==c Entonces:
+	Imprimir: "El triangulo es isoseles"
+	Si_No:
+	Si b==c Entonces:
+	Imprimir: "El triangulo es isoseles"
+	Si_No:
+	Imprimir: "El triangulo es escaleno"
+FIN

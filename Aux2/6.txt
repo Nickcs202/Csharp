@@ -1,0 +1,27 @@
+INICIO
+
+	entero num
+
+	Imprimir: "Ingrese un numero entero del 1 al 10"
+	Tomar: num
+	Segunsea num
+	=1  : Inprimir: "I"
+	Segunsea num
+	=2  : Inprimir: "II"
+	Segunsea num
+	=3  : Inprimir: "III"
+	Segunsea num
+	=4  : Inprimir: "IV"
+	Segunsea num
+	=5  : Inprimir: "V"
+	Segunsea num
+	=6  : Inprimir: "VI"
+	Segunsea num
+	=7  : Inprimir: "VII"
+	Segunsea num
+	=8  : Inprimir: "XIII"
+	Segunsea num
+	=9  : Inprimir: "IX"
+	Segunsea num
+	=10  : Inprimir: "X"
+FIN

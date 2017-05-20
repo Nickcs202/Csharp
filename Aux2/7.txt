@@ -1,0 +1,13 @@
+INICIO
+	cadena nombre
+	entero clave
+	flotante precio
+	flotante precioDescuento
+	
+	Imprimir: "Nombre: "+nomnbre+" precio: "+precio+" clave: "+clave
+	Si clave == 01 Entonces:
+	precioDescuento=precio-(precio*0.10)
+	Si_No:
+	precioDescuento=precio-(precio*0.20)
+	Imprimir: "Nombre: "+nomnbre+" precio: "+precio+" clave: "+clave
+FIN
