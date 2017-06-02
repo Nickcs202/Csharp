@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="MazeTry/MazeTry.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MazeTry/Form1.cs">
+    <Files>
+      <File FileName="MazeTry/Form1.cs" Line="1" Column="1" />
+      <File FileName="MazeTry/Maze.cs" Line="1" Column="1" />
+      <File FileName="MazeTry/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
