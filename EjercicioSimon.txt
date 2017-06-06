@@ -1,0 +1,84 @@
+﻿using System;
+using System.Threading;
+
+namespace Simon
+{
+	class MainClass
+	{
+		public static Random rdm = new Random ();
+		public static int[,] matriz = new int[2, 2];
+
+		public static void Main (string[] args)
+		{
+			Console.WriteLine ("Hello World!");
+/*
+			for(int i =0; i<10; i++){
+				Console.WriteLine (i+" > "+rdm.Next (0,2));
+				Thread.SpinWait (10000000);
+			}
+*/
+			//for (int i = 0; i < 10; i++) {
+				//mostrarMatriz ();
+				//Console.WriteLine ("\n\n");
+			matriz = matrizAleatoria ();
+			mostrarMatriz (matriz);
+			int[,] m2=	matrizUsuario ();
+			mostrarMatriz (matriz);
+			Console.WriteLine ("igual >" + IsEquals (matriz , m2));
+			//}
+		}
+	
+
+		public static int[,] matrizAleatoria ()
+		{
+			
+			for (int i = 0; i < matriz.GetLength (0); i++) {
+				for (int j = 0; j < matriz.GetLength (1); j++) {
+					matriz [i, j] = rdm.Next (0, 2);
+					Thread.SpinWait (10000000);
+				}
+
+			}
+			return matriz;
+
+		}
+
+		public static void mostrarMatriz (int [,] mat)
+		{
+			//matriz = matrizAleatoria ();
+
+			for (int i = 0; i < mat.GetLength (0); i++) {
+				for (int j = 0; j < mat.GetLength (1); j++) {
+					Console.WriteLine (i + " " + j + " > " + matriz [i, j]);
+				}
+			}
+		}
+
+		public static bool IsEquals (int[,] mA, int[,] mB)
+		{
+			bool variable = false;
+			/*
+			for (int i = 0; i < mA.GetLength (0); i++) {
+				for (int j = 0; j <mA.GetLength (1); j++) {
+					
+				}
+			}*/
+
+			return (mA [0, 0] == mB [0, 0] & mA [0, 1] == mB [0, 1] & mA [1, 0] == mB [1, 0] & mA [1, 1] == mB [1, 1]);
+		}
+
+		public static int[,] matrizUsuario ()
+		{
+			int[,] matz = new int[2, 2];
+
+			for (int i = 0; i < matz.GetLength (0); i++) {
+				for (int j = 0; j < matz.GetLength (1); j++) {
+					Console.WriteLine ("Ingrese numero");
+					matz [i, j] =Int32.Parse ( Console.ReadLine ());
+				}
+			}
+			return matz;
+		
+		}
+	}
+}
