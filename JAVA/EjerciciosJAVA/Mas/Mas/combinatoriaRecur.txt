@@ -1,0 +1,13 @@
+		
+public static int combinatoria (int n ,int r ){
+			if ( r == 0 || r == n ) 
+				return 1;
+			
+			if ( r > n ) 
+				return 0;
+			
+			int	a = combinatoria( n - 1 , r - 1 );
+			int	b = combinatoria( n - 1 , r );
+			return a + b;
+		
+}
